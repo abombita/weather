@@ -1,0 +1,65 @@
+html, body{
+    font-size:16px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+
+    background-image: url(//unsplash.it/1024/768);
+    background-position: center;
+    background-size: cover;
+
+    height: 68vh;
+
+}
+
+.flex-item{
+
+    margin-right: 1rem;
+    padding: .5rem;
+    color: #fff;
+    border: 1px solid yellow;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding:0;
+}
+
+.clr{
+    clear:both;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#weather-info{
+    width: 50%;
+
+
+}
+
+#weather-infor h2{
+    text-align: right;
+    font-size: 5em;
+}
+
+nav{
+    clear:both;
+}
+
+nav li{
+    float: left;
+    text-align: left ;
+}
